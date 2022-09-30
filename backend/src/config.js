@@ -34,7 +34,7 @@ const layerConfigurations = [
       { name: "Drinks" },
     ],
   },{
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
@@ -80,10 +80,10 @@ const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-09-30T16:30:00+08:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-09-30T20:30:00+08:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-09-30T16:30:00+08:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xF646F38b06Ca4AC861945B10196f0512429a03Fb"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
